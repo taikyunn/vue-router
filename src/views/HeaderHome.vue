@@ -1,0 +1,17 @@
+<template>
+  <nav>
+    <h2>これはHeaderHome.vueです</h2>
+    <router-link
+      to="/"
+      class="link"
+      exact
+      active-class="link--active"
+    >Home</router-link>
+    <router-link 
+      to="/users"
+      class="link"
+active-class="link--active"
+      exact
+    >Users</router-link>
+  </nav>
+</template> 
